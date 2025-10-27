@@ -31,7 +31,7 @@ int main() {
   while (fscanf(input_file, "%lf %lf", &point1, &point2) == 2) {
     double new_point1 = point1 / L;
     double new_point2 = point2 / S;
-    fprintf(output_file, "%.2lf %.2lf\n", new_point1, new_point2);
+    fprintf(output_file, "%.3lf %.0lf\n", new_point1, new_point2);
   }
   fclose(input_file);
   fclose(output_file);
