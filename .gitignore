@@ -1,0 +1,9 @@
+*.o
+*.obj
+*.out
+*.swp
+*~
+*.bak
+*.tmp
+*.log
+*.core
