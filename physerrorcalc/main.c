@@ -97,8 +97,47 @@ int main(int argc, char *argv[]) {
   }
 
   double student_coef;
-  printf("\nt alpha n: ");
-  scanf("%lf", &student_coef);
+  switch (n) {
+  case 2:
+    student_coef = 12.71;
+    printf("\nt alpha n: %.6lf\n", student_coef);
+    break;
+  case 3:
+    student_coef = 4.3;
+    printf("\nt alpha n: %.6lf\n", student_coef);
+    break;
+  case 4:
+    student_coef = 3.188;
+    printf("\nt alpha n: %.6lf\n", student_coef);
+    break;
+  case 5:
+    student_coef = 2.77;
+    printf("\nt alpha n: %.6lf\n", student_coef);
+    break;
+  case 6:
+    student_coef = 2.57;
+    printf("\nt alpha n: %.6lf\n", student_coef);
+    break;
+  case 7:
+    student_coef = 2.45;
+    printf("\nt alpha n: %.6lf\n", student_coef);
+    break;
+  case 8:
+    student_coef = 2.36;
+    printf("\nt alpha n: %.6lf\n", student_coef);
+    break;
+  case 9:
+    student_coef = 2.31;
+    printf("\nt alpha n: %.6lf\n", student_coef);
+    break;
+  case 10:
+    student_coef = 2.26;
+    printf("\nt alpha n: %.6lf\n", student_coef);
+    break;
+  default:
+    printf("\nt alpha n: ");
+    scanf("%lf", &student_coef);
+  }
   if (output_to_file) {
     fprintf(output_file, "\nt alpha n: %.6lf\n", student_coef);
   }
